@@ -1,4 +1,4 @@
-## Install and Completely Brave Browser
+## Install Brave Browser
 Run the command below in PowerShell with **Administrator privileges**:
 ```powershell
 irm https://go.bibica.net/brave | iex
