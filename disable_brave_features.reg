@@ -1,11 +1,25 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave]
+; Brave Specific Policy Settings
 "BraveRewardsDisabled"=dword:00000001
 "BraveWalletDisabled"=dword:00000001
 "BraveVPNDisabled"=dword:00000001
 "BraveAIChatEnabled"=dword:00000000
 "TorDisabled"=dword:00000001
+
+; Available in Brave 1.82.x
+;"BraveNewsDisabled"=dword:00000001
+;"BraveTalkDisabled"=dword:00000001
+;"BraveSpeedreaderDisabled"=dword:00000001
+;"BraveWaybackMachineDisabled"=dword:00000001
+
+"ShoppingListEnabled"=dword:00000000
+"SafeBrowsingSurveysEnabled"=dword:00000000
+"SafeBrowsingDeepScanningEnabled"=dword:00000000
+
+"AlternateErrorPagesEnabled"=dword:00000000
+"DefaultBrowserSettingEnabled"=dword:00000000
 
 ; Tắt Make searches and browsing better
 "UrlKeyedAnonymizedDataCollectionEnabled"=dword:00000000
@@ -17,6 +31,8 @@ Windows Registry Editor Version 5.00
 "AutofillAddressEnabled"=dword:00000000
 "AutofillCreditCardEnabled"=dword:00000000
 "PasswordManagerEnabled"=dword:00000000
+"PasswordSharingEnabled"=dword:00000000
+"PasswordLeakDetectionEnabled"=dword:00000000
 
 ; Tắt "Allow sites to check if you have payment methods saved"
 "PaymentMethodQueryEnabled"=dword:00000000
@@ -58,9 +74,6 @@ Windows Registry Editor Version 5.00
 ; Bật Safe Browsing Standard protection
 "SafeBrowsingProtectionLevel"=dword:00000001
 
-; Tắt Warn you if a password was compromised in a data breach
-"PasswordLeakDetectionEnabled"=dword:00000000
-
 ; Bật Memory Saver
 "HighEfficiencyModeEnabled"=dword:00000001
 
@@ -81,3 +94,10 @@ Windows Registry Editor Version 5.00
 
 ; Không cho phép tự động điền bằng AI
 "AutofillPredictionSettings"=dword:00000002
+
+;Automatically switch to more secure connections with Automatic HTTPS
+"HttpsUpgradesEnabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave\ExtensionInstallForcelist]
+"1"="jaadjnlkjnhohljficgoddcjmndjfdmi"  ; Blank New Tab Page
+"2"="nomnklagbgmgghhjidfhnoelnjfndfpd"  ; Canvas Blocker - Fingerprint Protect
