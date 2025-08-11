@@ -1,5 +1,7 @@
 Windows Registry Editor Version 5.00
 
+[-HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave]
+
 [HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave]
 ; Brave Specific Policy Settings
 "BraveRewardsDisabled"=dword:00000001
@@ -100,4 +102,5 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave\ExtensionInstallForcelist]
 "1"="jaadjnlkjnhohljficgoddcjmndjfdmi"  ; Blank New Tab Page
-"2"="nomnklagbgmgghhjidfhnoelnjfndfpd"  ; Canvas Blocker - Fingerprint Protect
+;"2"="nomnklagbgmgghhjidfhnoelnjfndfpd"  ; Canvas Blocker - Fingerprint Protect
+
