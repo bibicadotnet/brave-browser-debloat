@@ -52,7 +52,7 @@ Windows Registry Editor Version 5.00
 "SpellcheckEnabled"=dword:00000000
 
 ; Cho phép tiếp tục hỗ trợ các tiện ích Manifest V2
-"ExtensionManifestV2Availability"=dword:00000002
+;"ExtensionManifestV2Availability"=dword:00000002
 
 ; Tắt Help improve security on the web for everyone
 "SafeBrowsingExtendedReportingEnabled"=dword:00000000
@@ -103,4 +103,5 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave\ExtensionInstallForcelist]
 "1"="jaadjnlkjnhohljficgoddcjmndjfdmi"  ; Blank New Tab Page
 ;"2"="nomnklagbgmgghhjidfhnoelnjfndfpd"  ; Canvas Blocker - Fingerprint Protect
+
 
